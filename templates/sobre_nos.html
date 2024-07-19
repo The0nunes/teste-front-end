@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre nós</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue Bold', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: white;
+            color: #004AAD;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            position: fixed;
+            width: 98.5%;
+            top: 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            color: #004AAD;
+        }
+
+        .navbar .logo img {
+            margin-right: 10px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: #004AAD;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .navbar ul li a:hover {
+            color: #0165e7;
+        }
+
+        .navbar .buttons a {
+            margin-left: 5px;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            color: #1A9047;
+            background-color: white;
+            border: 2px solid #1A9047;
+        }
+
+        .navbar .buttons a:hover {
+            color: white;
+            background-color: #1A9047;
+        }
+
+        .navbar .buttons a:last-child {
+            color: white;
+            background-color: #1A9047;
+            border: none;
+        }
+
+        .navbar .buttons a:last-child:hover {
+            background-color: #2BC866;
+        }
+
+        .content {
+            padding-top: 70px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .tracking-section {
+            margin-top: 50px;
+        }
+
+        .tracking-section h2 {
+            font-size: 24px;
+            color: #2ace69;
+            margin-bottom: 20px;
+        }
+
+        .image-section {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+
+        .image-section div {
+            text-align: center;
+            margin: 10px;
+            flex: 1;
+        }
+
+        .image-section img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .image-section p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .highlight {
+            color: #2ace69;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .bottom-text {
+            margin-top: 50px;
+            font-size: 18px;
+            color: #2ace69;
+            font-weight: bold;
+        }
+
+        .bottom-button button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #23b25a;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .bottom-button button:hover {
+            background-color: #2BC866;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://img.icons8.com/?size=100&id=7776&format=png&color=1A9047" alt="Icone do Logo">
+            Rastreio Xpress
+        </div>
+        <ul>
+            <li><a href="pag_inicial.html">Home</a></li>
+            <li><a href="sobre_nos.html">Sobre nós</a></li>
+            <li><a href="parceiros.html">Parceiros</a></li>
+            <li><a href="ajuda.html">Ajuda</a></li>
+        </ul>
+        <div class="buttons">
+            <a href="#">Entrar</a>
+            <a href="#">Cadastrar-se</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="tracking-section">
+            <h2>Veja como o Rastreio Express pode facilitar sua rotina</h2>
+            <p>As funcionalidades do Rastreio Express foram desenvolvidas para ajudar você a organizar a rotina
+                logística.</p>
+        </div>
+
+        <div class="image-section">
+            <div>
+                <img src="https://img.icons8.com/?size=100&id=aBNtkpYvycsP&format=png&color=000000"
+                    alt="Imagem de uma Lupa de Busca">
+                <p class="highlight">Busque por uma encomenda</p>
+                <p>Use o rastreio express para encontrar suas encomendas. Basta colar o código de rastreio no campo de
+                    buscas e aproveitar.</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/?size=100&id=79287&format=png&color=000000"
+                    alt="Imagem de rastreamento de uma encomenda">
+                <p class="highlight">Acompanhe suas encomendas</p>
+                <p>O rastreio express foi desenvolvido para facilitar a visualização de suas encomendas. Nada de
+                    atualizações misteriosas e difíceis de entender.</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/?size=100&id=g9GCmmbmSYBG&format=png&color=000000"
+                    alt="Imagem de um Sino representando Notificação">
+                <p class="highlight">Receba notificações</p>
+                <p>No rastreio Express você acompanha tudo o que acontece com a sua encomenda diretamente no seu e-mail.
+                </p>
+            </div>
+        </div>
+
+        <div class="bottom-text">
+            <p>O Rastreio Express foi desenvolvido especialmente para quem deseja usar uma ferramenta simples e
+                objetiva, sem enrolação.</p>
+        </div>
+
+        <div class="bottom-button">
+            <button>Cadastre-se agora</button>
+        </div>
+    </div>
+</body>
+
+</html>

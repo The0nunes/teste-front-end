@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parceiros</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue Bold', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background-color: white;
+            color: #004AAD;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            position: fixed;
+            width: 98.5%;
+            top: 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            color: #004AAD;
+        }
+
+        .navbar .logo img {
+            margin-right: 10px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: #004AAD;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .navbar ul li a:hover {
+            color: #0165e7;
+        }
+
+        .navbar .buttons a {
+            margin-left: 5px;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            color: #1A9047;
+            background-color: white;
+            border: 2px solid #1A9047;
+        }
+
+        .navbar .buttons a:hover {
+            color: white;
+            background-color: #1A9047;
+        }
+
+        .navbar .buttons a:last-child {
+            color: white;
+            background-color: #1A9047;
+            border: none;
+        }
+
+        .navbar .buttons a:last-child:hover {
+            background-color: #2BC866;
+        }
+
+        .spacer {
+            height: 60px;
+        }
+
+        .content {
+            padding: 20px;
+            background-color: #1A9047;
+            color: white;
+            text-align: left;
+            flex: 1;
+        }
+
+        .content h1 {
+            font-size: 36px;
+        }
+
+        .content p {
+            font-size: 16px;
+            margin: 20px 0;
+        }
+
+        .tracking-button {
+            padding: 10px;
+            font-size: 16px;
+            color: white;
+            background-color: white;
+            border: 2px solid #888;
+            border-radius: 20px;
+            cursor: pointer;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            max-width: 320px;
+            margin: 13px;
+        }
+
+        .tracking-button img {
+            width: 40px;
+            height: 30px;
+        }
+
+        .partner-image {
+            position: fixed;
+            right: 40px;
+            top: 120px;
+            width: 200px;
+            z-index: 100;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://img.icons8.com/?size=100&id=7776&format=png&color=1A9047" alt="Icone do Logo">
+            Rastreio Xpress
+        </div>
+        <ul>
+            <li><a href="pag_inicial.html">Home</a></li>
+            <li><a href="sobre_nos.html">Sobre nós</a></li>
+            <li><a href="parceiros.html">Parceiros</a></li>
+            <li><a href="ajuda.html">Ajuda</a></li>
+        </ul>
+        <div class="buttons">
+            <a href="#">Entrar</a>
+            <a href="#">Cadastrar-se</a>
+        </div>
+    </nav>
+
+    <div class="spacer"></div>
+
+    <div class="content">
+        <h1>A plataforma de rastreamento mais completa do mercado</h1>
+        <p>O melhor rastreio controla todos os envios postados na Azul Cargo Express e Correios.</p>
+        <p>Porém, quem faz envios com etiquetas geradas na plataforma do melhor envio também <br> consegue rastrear
+            encomendas enviadas pela Jadiog, Buslog, Via Brasil e LATAM Cargo.</p>
+        <div class="tracking-button">
+            <img src="https://raichu-uploads.s3.amazonaws.com/logo_null_qDwL70.jpg" alt="Logo J&Texpress">
+            <img src="https://logospng.org/download/azul-cargo-express/logo-azul-cargo-express-1024.png"
+                alt="Logo Azulcargo express">
+            <img src="https://www.transportabrasil.com.br/wp-content/uploads/2017/04/logo-buslog.jpg" alt="Logo Buslog">
+            <img src="https://i.pinimg.com/originals/cc/02/74/cc027446e345a7621c4ab8593798fe00.jpg" alt="Logo Correios">
+        </div>
+    </div>
+
+    <img src="https://melhorrastreio.com.br/files/partner-carriers-desktop.1abf668e.svg" alt="Imagem rastreio"
+        class="partner-image">
+</body>
+
+</html>

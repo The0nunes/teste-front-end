@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajuda</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            background-color: white;
+            color: #004AAD;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            position: fixed;
+            width: 98.5%;
+            top: 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            color: #004AAD;
+        }
+
+        .navbar .logo img {
+            margin-right: 10px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: #004AAD;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .navbar ul li a:hover {
+            color: #0165e7;
+        }
+
+        .navbar .buttons a {
+            margin-left: 5px;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            color: #1A9047;
+            background-color: white;
+            border: 2px solid #1A9047;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .navbar .buttons a:hover {
+            color: white;
+            background-color: #1A9047;
+        }
+
+        .navbar .buttons a:last-child {
+            color: white;
+            background-color: #1A9047;
+            border: none;
+        }
+
+        .navbar .buttons a:last-child:hover {
+            background-color: #2BC866;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 80px 20px 20px 20px;
+            text-align: center;
+            margin-top: 70px;
+        }
+
+        .content .text-container {
+            max-width: 500px;
+            /* Limita a largura do texto para evitar que fique muito largo */
+            text-align: left;
+        }
+
+        .content img {
+            width: 300px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .content h2 {
+            font-size: 32px;
+            color: #1A9047;
+            margin: 0 0 10px 0;
+        }
+
+        .content p {
+            font-size: 18px;
+            color: #333;
+            margin: 0;
+        }
+
+        .info-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        .info-card {
+            background-color: white;
+            border: 1px solid #1A9047;
+            border-radius: 8px;
+            padding: 20px;
+            width: 220px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .info-card img {
+            width: 40px;
+            height: auto;
+            margin-right: 15px;
+            vertical-align: middle;
+        }
+
+        .info-card h3 {
+            color: #1A9047;
+            font-size: 18px;
+            margin: 0 0 10px 0;
+        }
+
+        .info-card p {
+            font-size: 14px;
+            color: #333;
+            margin: 0;
+        }
+
+        .info-card ul {
+            list-style: disc;
+            margin-left: 20px;
+            padding-left: 0;
+        }
+
+        .info-card ul li {
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .footer-space {
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://img.icons8.com/?size=100&id=7776&format=png&color=1A9047" alt="Logo">
+            Rastreio Xpress
+        </div>
+        <ul>
+            <li><a href="pag_inicial.html">Home</a></li>
+            <li><a href="sobre_nos.html">Sobre nós</a></li>
+            <li><a href="parceiros.html">Parceiros</a></li>
+            <li><a href="ajuda.html">Ajuda</a></li>
+        </ul>
+        <div class="buttons">
+            <a href="#">Entrar</a>
+            <a href="#">Cadastrar-se</a>
+        </div>
+    </nav>
+    <div class="content">
+        <img src="https://melhorrastreio.com.br/files/tracking-help-desktop-carriers-lp.a40adf01.svg" alt="Ajuda">
+        <div class="text-container">
+            <h2>Precisa de ajuda <br> com algum rastreio?</h2>
+            <p>Veja o que fazer em cada um dos casos:</p>
+        </div>
+    </div>
+    <div class="info-cards">
+        <div class="info-card">
+            <img src="https://img.icons8.com/?size=100&id=16700&format=png&color=1A9047" alt="Ícone ampulheta">
+            <div>
+                <h3>Estou esperando uma encomenda</h3>
+                <p>O remetente é a única pessoa que pode resolver problemas relacionados ao rastreio.</p>
+                <p>Sugerimos que peça para a pessoa responsável pelo envio entrar em contato com a gente
+                    seguindo as instruções para lojistas.</p>
+            </div>
+        </div>
+        <div class="info-card">
+            <img src="https://img.icons8.com/?size=100&id=78526&format=png&color=1A9047" alt="Ícone cubo">
+            <div>
+                <h3>Enviei um pacote com etiqueta do Melhor Envio</h3>
+                <p>É muito fácil encontrar ajuda. Veja só:</p>
+                <ul>
+                    <li>Entre na sua conta Melhor Envio</li>
+                    <li>Vá até a opção Ajuda</li>
+                    <li>Escolha o assunto que melhor representa a sua dúvida</li>
+                    <li>Encontre o suporte que precisa</li>
+                </ul>
+            </div>
+        </div>
+        <div class="info-card">
+            <img src="https://img.icons8.com/?size=100&id=78952&format=png&color=1A9047" alt="Ícone etiqueta">
+            <div>
+                <h3>Comprei uma etiqueta diretamente com a transportadora</h3>
+                <p>Sugerimos que entre em contato com a empresa responsável pelo envio.</p>
+            </div>
+        </div>
+        <div class="info-card">
+            <img src="https://img.icons8.com/?size=100&id=76954&format=png&color=1A9047" alt="Ícone dinheiro">
+            <div>
+                <h3>Eu vou pagar alguma taxa de uso ou mensalidade?</h3>
+                <p>Não! O Melhor Rastreio é totalmente gratuito e não cobra nenhuma mensalidade ou taxa pelos serviços.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-space"></div>
+</body>
+
+</html>

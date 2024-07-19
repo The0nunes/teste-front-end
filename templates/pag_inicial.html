@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue Bold', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: white;
+            color: #004AAD;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            position: fixed;
+            width: 98.5%;
+            top: 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            color: #004AAD;
+        }
+
+        .navbar .logo img {
+            margin-right: 10px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: #004AAD;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .navbar ul li a:hover {
+            color: #0165e7;
+        }
+
+        .navbar .buttons a {
+            margin-left: 5px;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            color: #1A9047;
+            background-color: white;
+            border: 2px solid #1A9047;
+        }
+
+        .navbar .buttons a:hover {
+            color: white;
+            background-color: #1A9047;
+        }
+
+        .navbar .buttons a:last-child {
+            color: white;
+            background-color: #1A9047;
+            border: none;
+        }
+
+        .navbar .buttons a:last-child:hover {
+            background-color: #2BC866;
+        }
+
+        .content {
+            padding-top: 70px;
+            text-align: center;
+        }
+
+        .tracking-section {
+            margin-top: 50px;
+        }
+
+        .tracking-section h2 {
+            font-size: 36px;
+            color: #2ace69;
+            margin-bottom: 20px;
+        }
+
+        .tracking-section input {
+            padding: 8px;
+            width: 250px;
+            font-size: 16px;
+            margin-right: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .tracking-section button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #888888;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .tracking-section button:hover {
+            background-color: #666666;
+        }
+
+        .image-section {
+            margin-top: 30px;
+        }
+
+        .image-section img {
+            width: 92%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+                <img src="https://img.icons8.com/?size=100&id=7776&format=png&color=1A9047" alt="Logo">
+                Rastreio Xpress
+            </a>
+        </div>
+        <ul>
+            <li><a href="pag_inicial.html">Home</a></li>
+            <li><a href="sobre_nos.html">Sobre nós</a></li>
+            <li><a href="parceiros.html">Parceiros</a></li>
+            <li><a href="ajuda.html">Ajuda</a></li>
+        </ul>
+        <div class="buttons">
+            <a href="#">Entrar</a>
+            <a href="#">Cadastrar-se</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="tracking-section">
+            <h2>Rastreie seu pedido!</h2>
+            <div>
+                <input type="text" placeholder="Digite o código de rastreamento">
+                <button>
+                    RASTREAR
+                </button>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="https://i0.wp.com/jadlograstreamento.com.br/wp-content/uploads/2024/03/Captura-de-Tela-2024-03-24-as-09.11.06.png?resize=1536%2C519&ssl=1"
+                alt="Imagem de caixas">
+        </div>
+    </div>
+</body>
+
+</html>
